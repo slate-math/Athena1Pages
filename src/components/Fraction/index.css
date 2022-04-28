@@ -1,0 +1,87 @@
+
+/*
+.fraction {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 0.2em 0.4ex;
+  text-align: center;
+}
+
+.fraction > span {
+  display: block;
+  padding-top: 0.15em;
+  padding-bottom: 0.15em;
+}
+
+.fraction > span:empty {
+  border-style: dashed;
+  border-color: blue;
+}
+
+.fraction span.denominator {
+  border-top: thin solid black;
+}
+
+.fraction span.denominator:empty {
+  border-style: dashed;
+  border-color: blue;
+}
+
+.fraction-icon {
+  font-size: 1em;
+  font-weight: bolder;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 0.5em 0.4ex;
+  text-align: center;
+}
+
+.fraction-icon > span {
+  display: block;
+}
+
+.fraction-icon span.denominator-icon {
+  border-top: thin solid black;
+}
+
+.slate-fraction {
+  display: inline-flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  width: auto;
+  text-align: center;
+}
+
+.slate-fraction > .slate-equationbox {
+  text-align: 'center';
+  width: auto;
+  white-space: nowrap;
+}
+
+.slate-fraction > .slate-equationbox:nth-child(2) {
+  border-top: thin solid black;
+}
+*/
+.fractions {
+  position: relative;
+  display: inline-block;
+  margin: 0 0.2em;
+  vertical-align: middle;
+  text-align: center;
+  font-weight: bolder;
+}
+
+.fractions .symbol-ico {
+  margin-left: 20px;
+  margin-right: 15px;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+
+.fraction-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-column-gap: 0.8em;
+  grid-row-gap: 0.8em;
+}
