@@ -35,13 +35,41 @@ table tr:last-child th {
   grid-column-gap: 0.5em;
 }
 
+.table-container {
+  position: absolute;
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-column-gap: 0.5em;
+  left: 250;
+  border-style:solid;
+  border-width: 1px;
+  border-color:gainsboro;
+}
+
+.slate-td {
+  border-style: solid;
+}
+
+.slate-tr {
+  border-style: solid;
+}
+
+.slate-table {
+  border-style: solid;
+}
+
+.table-container {
+  left: 250px;
+}
+
+
+
+
 .slate-matrix > .slate-tr > .slate-td  {
   text-align: center;
   font-family: Cambria, Georgia, serif; font-style: normal; font-variant: normal; 
   z-index: -1;
 }
-
-
 
 .slate-equationMentionInsert {
   font-family: Cambria, Georgia, serif; font-style: normal; font-variant: normal; 

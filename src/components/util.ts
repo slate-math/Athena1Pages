@@ -30,6 +30,8 @@ import {
   ELEMENT_UNEDITABLE_BIG_OPERATOR,
 } from './UneditableBigOperator/defaults'
 import { ELEMENT_STACKED, ELEMENT_SKEWED, ELEMENT_LINEAR } from './Fraction/FractionDefaults/defaults'
+import { ELEMENT_CUSTOMTABLE } from './Table/defaults'
+import { ELEMENT_TRIG } from './Trig'
 
 
 export const getCurrentSelection = (editor: PlateEditor): Path | undefined => {
@@ -177,6 +179,8 @@ export const isMathNode = (node: any, editor: PlateEditor): boolean => {
     ELEMENT_STACKED,
     ELEMENT_SKEWED,
     ELEMENT_LINEAR,
+    ELEMENT_TRIG,
+    ELEMENT_CUSTOMTABLE,
   ]
   for (var i = 0; i < types.length; i++) {
     if (node.type === getPluginType(editor, types[i])) return true

@@ -1,7 +1,6 @@
 {
   "private": true,
   "name": "plate-playground",
-  "homepage":"https://mccordsm.github.io/Page",
   "description": "A simple sandbox to reproduce Plate issues in a pared down editor.",
   "keywords": [
     "slate",
@@ -87,8 +86,6 @@
     }
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "storybook": "start-storybook -p 6006 -s public",

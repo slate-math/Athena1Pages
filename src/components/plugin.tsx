@@ -44,6 +44,9 @@ import { ELEMENT_TRIG, TrigComponent } from './Trig'
 
 
 import { TComboboxItem } from '@udecode/plate';
+import { ELEMENT_CUSTOMTABLE, EMPTY_CELL, EMPTY_ROW } from './Table/defaults'
+import { TableComponent } from './Table/getTable'
+import { getEmptyTableNode } from './Table/GetEmptyTableNode'
 
 export const createEquationBoxPlugin = createPluginFactory({
   key: ELEMENT_EQUATIONBOX,
@@ -172,6 +175,12 @@ export const createTrigPlugin = createPluginFactory({
 
 })
 
+export const createCustomTablePlugin = createPluginFactory({
+  key: ELEMENT_CUSTOMTABLE,
+  isInline: true,
+  isElement: true,
+})
+
 export const createMathContainerPlugin = createPluginFactory({
   key: ELEMENT_MATH_CONTAINER,
   isInline: true,
@@ -208,6 +217,7 @@ export const createMathPlugins = () => {
       createTrigPlugin(),
       createLinearFraction(),
       createFractionPlugin(),
+      createCustomTablePlugin(),
       createEquationTextPlugin(),
       createMatrixPlugin(),
       createEquationBoxMatrixPlugin(),
