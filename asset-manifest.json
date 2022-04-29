@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Athena1Pages/static/css/main.fdb49bef.chunk.css",
+    "main.js": "/Athena1Pages/static/js/main.7f68ae30.chunk.js",
+    "main.js.map": "/Athena1Pages/static/js/main.7f68ae30.chunk.js.map",
+    "runtime-main.js": "/Athena1Pages/static/js/runtime-main.c4989158.js",
+    "runtime-main.js.map": "/Athena1Pages/static/js/runtime-main.c4989158.js.map",
+    "static/css/2.04607c25.chunk.css": "/Athena1Pages/static/css/2.04607c25.chunk.css",
+    "static/js/2.d3ea2cca.chunk.js": "/Athena1Pages/static/js/2.d3ea2cca.chunk.js",
+    "static/js/2.d3ea2cca.chunk.js.map": "/Athena1Pages/static/js/2.d3ea2cca.chunk.js.map",
+    "index.html": "/Athena1Pages/index.html",
+    "static/css/2.04607c25.chunk.css.map": "/Athena1Pages/static/css/2.04607c25.chunk.css.map",
+    "static/css/main.fdb49bef.chunk.css.map": "/Athena1Pages/static/css/main.fdb49bef.chunk.css.map",
+    "static/js/2.d3ea2cca.chunk.js.LICENSE.txt": "/Athena1Pages/static/js/2.d3ea2cca.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c4989158.js",
+    "static/css/2.04607c25.chunk.css",
+    "static/js/2.d3ea2cca.chunk.js",
+    "static/css/main.fdb49bef.chunk.css",
+    "static/js/main.7f68ae30.chunk.js"
+  ]
+}
