@@ -49,7 +49,7 @@ export const TableDropDown = ({
   const updateTable = (rows: number, cols: number) => {
     if (editorRef && editor && editor.selection) {
       insertNodes(editor, getEmptyTableNode(editor, cols, rows))
-      Transforms.select(editorRef, editor.selection)
+      //Transforms.select(editorRef, editor.selection)
       ReactEditor.focus(editorRef)
       onToggle()
     }

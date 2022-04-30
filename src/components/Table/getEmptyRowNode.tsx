@@ -1,4 +1,3 @@
-import { EMPTY_ROW } from "./defaults"
 import {
     ELEMENT_DEFAULT,
     getPluginType,

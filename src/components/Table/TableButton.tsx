@@ -26,7 +26,6 @@ export const TableButton = ({
             <button
             className="tableButton" 
             type="button"
-            aria-label={'\u2b1a'}
             name={'\u2b1a'}
             onClick={() => updateTable(rowNum, colNum)}
             css={styles.root.css}

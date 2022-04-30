@@ -4,3 +4,15 @@
     grid-column-gap: 0.5em;
     grid-row-gap: 0.5em;
   }
+
+  .slate-td {
+    border-style: solid;
+  }
+  
+  .slate-tr {
+    border-style: solid;
+  }
+
+  .slate-table {
+    border-style:solid;
+  }

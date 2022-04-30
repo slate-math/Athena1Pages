@@ -5,9 +5,15 @@
     margin-right: 6px;    
 
 }
-img {
-    height: 40px;
-    width: 80px;
-    float: left;
-    margin-right: 40px;
-}
+
+.slate-table {
+    border-style:hidden;
+  }
+
+  .slate-td {
+    border-style: solid;
+  }
+  
+  .slate-tr {
+    border-style: solid;
+  }

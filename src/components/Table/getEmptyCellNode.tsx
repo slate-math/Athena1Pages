@@ -4,7 +4,6 @@ import {
     getPluginType,
     PlateEditor,
   } from '@udecode/plate-core';
-import { EMPTY_CELL } from './defaults';  
 
 export const getEmptyCellNode = (
     editor: PlateEditor,

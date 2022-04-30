@@ -44,8 +44,7 @@ import { ELEMENT_TRIG, TrigComponent } from './Trig'
 
 
 import { TComboboxItem } from '@udecode/plate';
-import { ELEMENT_CUSTOMTABLE, EMPTY_CELL, EMPTY_ROW } from './Table/defaults'
-import { TableComponent } from './Table/getTable'
+import { ELEMENT_CUSTOMTABLE} from './Table/defaults'
 import { getEmptyTableNode } from './Table/GetEmptyTableNode'
 
 export const createEquationBoxPlugin = createPluginFactory({
