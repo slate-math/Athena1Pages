@@ -1,0 +1,84 @@
+html {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: 1.4;
+}
+
+body {
+  margin: 0;
+}
+
+#root {
+  padding: 30px;
+}
+
+.MuiSvgIcon-root {
+  font-size: 18px !important;
+}
+
+.tippy-box[data-theme~='tomato'] {
+  background-color: tomato;
+  color: yellow;
+}
+table tr:last-child th {
+  border-bottom: 0;
+}
+
+.table-container {
+  position: absolute;
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-column-gap: 0.5em;
+  left: 250;
+  border-style:solid;
+  border-width: 1px;
+  border-color:gainsboro;
+}
+
+.table-container {
+  left: 250px;
+}
+
+
+.slate-table {
+  border-style:hidden;
+}
+
+
+
+
+
+.slate-matrix > .slate-tr > .slate-td  {
+  text-align: center;
+  font-family: Cambria, Georgia, serif; font-style: normal; font-variant: normal; 
+  z-index: -1;
+}
+
+
+
+.slate-equationMentionInsert {
+  font-family: Cambria, Georgia, serif; font-style: normal; font-variant: normal; 
+  font-size: 1.5em; 
+}
+
+.slate-equationtext {
+  font-family: Cambria, Georgia, serif; font-style: normal; font-variant: normal; 
+  font-size: 1.5em; 
+  grid-area: symbol;
+}
+.slate-equationbox {
+  font-family: Cambria, Georgia, serif; font-style: normal; font-variant: normal; 
+
+}
+
+.slate-lim > div {
+  bottom: .5em;
+}
+.slate-lim > .slate-equationtext {
+  position: relative;
+  top: .5em;
+}
+

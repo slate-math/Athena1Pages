@@ -1,0 +1,58 @@
+/*Log icon*/
+.logs {
+  position: relative;
+  display: inline-block;
+  margin: 0 0.2em;
+  vertical-align: middle;
+  text-align: center;
+  font-weight: bolder;
+}
+
+.logs > div {
+  display: inline-block;
+  font-size: 1.4em;
+}
+
+.logs > div:nth-child(2) {
+  font-size: 0.75em;
+}
+
+.logs > div:nth-child(3) {
+  font-size: 1em;
+  vertical-align: super;
+}
+
+.logs > span {
+  display: inline-block;
+  margin: -0.5ex auto;
+}
+
+.logs .symbol-ico {
+  font-size: .6em;
+  top: .3rem;
+  position: relative;
+  right: .2em;
+}
+
+.logs .symbol-ico2 {
+  font-size: 1em;
+  font-weight: normal;
+  position: relative;
+  right: .2em;
+}
+
+.logs .slate-equationbox:nth-child(3) {
+  vertical-align: super;
+}
+
+.logs .overup {
+  margin-left: 15px;
+}
+
+.log-container {
+  display: flex;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 0.8em;
+  grid-row-gap: 0.8em;
+}
+
