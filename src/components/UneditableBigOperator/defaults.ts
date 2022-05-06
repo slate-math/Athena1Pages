@@ -1,1 +1,0 @@
-export const ELEMENT_UNEDITABLE_BIG_OPERATOR = "ubigoperator"
